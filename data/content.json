@@ -1,47 +1,111 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "Carnitas Loya",
+  "tagline": "Pacoima's pork-shoulder royalty since the morning grill fires up.",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "heading": "Carnitas done right.",
+    "subheading": "Slow-cooked pork shoulder, crispy where it counts, served on hand-pressed tortillas. The Pacoima staple 804 reviews can't be wrong about.",
+    "ctaText": "Order now",
+    "ctaLink": "tel:8188994223",
+    "image": "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=1600&q=80&auto=format&fit=crop"
   },
   "about": {
-    "heading": "About Us",
+    "heading": "Real Mexican. Real slow. Real good.",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "Carnitas Loya has been Laurel Canyon's first stop for one thing since day one: pork shoulder simmered the right way — hours in copper, finished on the grill so the edges crisp up.",
+      "Three generations of hands shaping tortillas, chopping salsa, salting bistec. Pacoima's worst-kept secret, voted by every line out the door at noon."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Carnitas plate",
+      "description": "Slow-cooked pork shoulder, crisped on the flat-top. Rice, beans, three tortillas, fresh salsa verde.",
+      "price": "$13.50"
+    },
+    {
+      "title": "Tacos al pastor",
+      "description": "Marinated pork on the trompo, fresh pineapple, cilantro, onion. The way your abuelita would approve.",
+      "price": "$3.75 ea"
+    },
+    {
+      "title": "Family carnitas (1lb)",
+      "description": "One pound carnitas, twelve tortillas, salsas, rice & beans. Feeds 4 happy people.",
+      "price": "$28.00"
+    },
+    {
+      "title": "Burritos",
+      "description": "Hand-pressed, hand-rolled. Carnitas, asada, pollo, or veggie. As big as your forearm.",
+      "price": "$11.50"
+    },
+    {
+      "title": "Tortas",
+      "description": "Telera bread, refried beans, avocado, your meat. The lunch that ruins lunch.",
+      "price": "$10.50"
+    },
+    {
+      "title": "Aguas frescas",
+      "description": "Horchata, jamaica, tamarindo. Fresh every morning, sweet but never too sweet.",
+      "price": "$3.50"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Miguel R.",
+      "text": "The carnitas here are the gold standard. I've been coming since I was a kid. Crispy outside, juicy inside, salsa verde that hits perfect.",
+      "rating": 5
+    },
+    {
+      "name": "Yvette M.",
+      "text": "Drove from Burbank for these tacos al pastor. Worth every minute of traffic. The trompo guy is an artist.",
+      "rating": 5
+    },
+    {
+      "name": "Carlos D.",
+      "text": "Family-owned, family-run, and they treat you like family. Best burrito in the Valley, no debate.",
+      "rating": 5
+    },
+    {
+      "name": "Lupita S.",
+      "text": "My abuela approves. That's the highest compliment I can give. Real Mexican food the right way.",
+      "rating": 5
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "phone": "(818) 899-4223",
+    "email": "hola@carnitasloya.com",
+    "address": "10424 Laurel Canyon Blvd B, Pacoima, California",
+    "mapEmbedQuery": "Carnitas Loya 10424 Laurel Canyon Blvd Pacoima CA",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
-      "Sunday": "Closed"
-    },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+      "Monday": "8:00 AM – 9:00 PM",
+      "Tuesday": "8:00 AM – 9:00 PM",
+      "Wednesday": "8:00 AM – 9:00 PM",
+      "Thursday": "8:00 AM – 9:00 PM",
+      "Friday": "8:00 AM – 10:00 PM",
+      "Saturday": "8:00 AM – 10:00 PM",
+      "Sunday": "8:00 AM – 8:00 PM"
+    }
+  },
+  "social": {},
+  "gallery": [
+    "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=1600&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1600&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?w=1600&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=1600&q=80&auto=format&fit=crop"
+  ],
+  "rating": 4.4,
+  "reviewCount": 804,
+  "theme": {
+    "primaryColor": "#C5282F",
+    "accentColor": "#F4A261",
+    "fontFamily": "Anton + Karla"
   },
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
-  },
-  "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
+    "title": "Carnitas Loya — Pacoima · Authentic Mexican Carnitas",
+    "description": "Pacoima's pork-shoulder royalty. Slow-cooked carnitas, tacos al pastor, hand-pressed tortillas on Laurel Canyon Blvd. 4.4★ · 804 reviews.",
+    "keywords": [
+      "carnitas pacoima",
+      "mexican food pacoima",
+      "tacos laurel canyon",
+      "best carnitas san fernando valley"
+    ]
   }
 }
